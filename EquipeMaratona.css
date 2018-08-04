@@ -1,0 +1,404 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300|Questrial');
+@font-face
+{
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    src: url(../Fonte_Texto/Questrial);
+    src: url(../Fonte_Texto/Alegreya_Sans);
+}
+bory
+{
+    background-color: rgba(57,83,96);
+     font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1{
+    font-size: 20pt;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+h1:hover
+{
+    font-size: 20pt;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    color: black;
+    text-decoration: none;
+}
+h2
+{
+    position: relative;
+    color: black;
+    font-size: 35px;
+    top: 70px;
+    left: 300px;
+}
+h4
+{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: 550px;
+    text-decoration: none;
+}
+
+header
+{
+    position: fixed;
+    background-color: white;
+    width: 1351px; 
+    height: 80px;
+    margin-top: -25px;
+    margin-left: -10px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,1);
+    z-index: 1;
+}
+div#div1{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1800px;
+    width: 1350px;
+}
+
+img#balaover
+{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+h3.titulo1
+{
+    color: red;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    font-size: 20px;
+}
+p.um
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 450px;
+    left: 250px;
+}
+p.dois
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 580px;
+    left: 250px;
+}
+h3.titulo2
+{
+    color: blueviolet;
+    position: absolute;
+    top: 400px;
+    left: 850px;
+    font-size: 20px;
+}
+img#balaoroxo
+{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+p.tres
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 450px;
+    left: 850px;
+}
+p.quatro
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 560px;
+    left: 850px;
+}
+h3.titulo3
+{
+    color: yellowgreen;
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    font-size: 20px;
+}
+img#balaoamarelo
+{
+    position: absolute;
+    top: 750px;
+    left: 110px;
+}
+p.cinco
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 800px;
+    left: 250px;
+}
+p.seis
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 850px;
+    left: 250px;
+}
+p.sete
+{
+    position: absolute;
+    width: 400px;
+    text-align: justify;
+    top: 1015px;
+    left: 250px;
+}
+
+div#div2
+{
+    position: absolute;
+    height: 200px;
+    width: 1350px;
+    left: 0px;
+    top: 1100px;
+    background-color: black;
+}
+h3.nafatec
+{
+    position: absolute;
+    color: white;
+    left: 290px;
+    top: 20px;
+    font-size: 30px;
+}
+a.insc
+{
+    position: absolute;
+    color: white;
+    left: -200px;
+    top: 90px;
+    font-size: 30px;
+    box-shadow: 0px 0px 0px 3px white;
+    padding: 5px;
+    margin: 10px;
+}
+
+img#maratona
+{
+    position: relative;
+    left: 900px;
+    top: -10px;
+}
+img#simbolo
+{
+    position: absolute;
+    left: 770px;
+    top: 90px;
+}
+h2.titulo9
+{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    font-size: 50px;
+    
+}
+h2.ante
+{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+img#equipe
+{
+    position: absolute;
+    top: 550px;
+    left: -300px;
+}
+div#oito
+{
+    position:relative;
+    top: -450px;
+    left: 400px;
+    height: 600px;
+    width: 500px;
+    text-align: justify;
+    background-color: white;
+}
+div#nove
+{
+    background-color: dodgerblue;
+    position: absolute;
+    height: 1150px;
+    width: 1358px;
+    top: 400px;
+    left: -407px;
+}
+h3.titulo6
+{
+    color: white;
+    position: absolute;
+    left: 550px;
+    font-size: 40px;
+}
+
+/*Configurando Rodapé*/
+footer#rodape
+{
+    background-color: rgba(57,83,99);
+    height: 600px;
+    width: 1350px;
+    position: absolute;
+    margin-top: 500px;
+    left: 0px;
+}
+div#grupo1 /*Desenvolvedores*/
+{
+    position: relative;
+    color: white;
+    margin-left: 80px;
+    top: 10px;
+    list-style: none;
+}
+
+div#grupo2 /*Contatos*/
+{
+    position: relative;
+    left: 300px;
+    margin-top:  -215px;
+     color: white;
+    list-style:  none;
+}
+div#contra
+{
+    position: absolute;
+    width: 1350px;
+    height: 40px;
+    background-color: rgba(57,83,96);
+    margin-top: 1101px;
+    left: 0px;
+}
+form
+{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -200px;
+    height: 500px;
+    width: 100px;   
+}
+label /*Formulário de Mensagem*/
+{
+    color: white;
+    padding: 10px;
+}
+input
+{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+button[type=submit]{
+    background-color: white; /*Cor interna*/
+    padding: 10px; /*Espaçamento interno*/
+    color: rgba(57,83,96);
+    border-color: white; /*Cor nas bordas*/
+    margin: 10px;
+}
+hr
+{
+    position: relative;
+    margin-top: -5px;
+}
+img#ins
+{
+    position: relative;
+    top: -300px;
+    left: -900px;
+}
+
+nav#menu
+{
+    display: block;
+}
+
+nav#menu ul{
+    color: rgba(57,83,96);
+    list-style: none; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    position: absolute; 
+    top: 15px;
+    left: 500px;
+}
+a
+{
+    color: rgba(57,83,96);
+    text-decoration: none;
+}
+a:hover 
+{
+    color: white;
+}
+.home:hover
+{
+    color: rgba(57,83,99);
+}
+nav#menu li{
+    display: inline-block; /*Diz que o menu vai estar um ao lado do outro*/
+    background-color: white; 
+    padding: 10px; 
+    margin: -3px; 
+    transition: background-color 1s;
+}
+nav#menu li:hover
+{
+      display: inline-block; /*Diz que o menu vai estar um ao lado do outro*/
+    background-color: skyblue; 
+    padding: 10px; 
+    margin: -3px; 
+    transition: background-color 1s;
+}
+
+/*SUBMENU*/
+nav#menu li  ul{
+position:absolute; 
+top:25px; /*Defiine posição do submenu*/
+left:350px; /*Define a posição do nosso submenu*/
+background-color:ghostwhite; 
+display:none;
+    z-index: 1;
+}   
+nav#menu li:hover ul, nav#menu li.over ul{display:block;
+}
+
+nav#menu li ul li{
+border:1px; 
+display:block; 
+width:150px; /*Define a largura da caixinha*/
+    text-align:inherit;
+}
