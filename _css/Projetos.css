@@ -1,0 +1,336 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300|Questrial');
+@font-face
+{
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    src: url(../Fonte_Texto/Questrial);
+    src: url(../Fonte_Texto/Alegreya_Sans);
+}
+bory
+{
+    background-color: rgba(57,83,96);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h1{
+    font-size: 20pt;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+h1:hover
+{
+    font-size: 20pt;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+.home:hover
+{
+    color:rgba(57,83,96);
+}
+h2{
+    font-family: 'Questrial', sans-serif;
+    position: relative;
+    font-size: 40px;
+    top: 120px;
+    left: 100px;
+    color: dodgerblue;
+}
+h3
+{
+    color: black;
+}
+h4
+{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -7px;
+    left: 550px;
+    text-decoration: none;
+    font-family:serif;
+}
+h5
+{
+    font-size: 60px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+p.visite
+{
+    color: black;
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    font-size: 25px;
+}
+/*Configurando IMG principal*/
+img#legos
+{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+img#leao
+{
+    position: relative;
+    left: 100px;
+    top: 40px;
+    border-radius: 50%;
+}
+img#leao:hover
+{
+    opacity: 0.7;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    border-radius: 50%;
+}
+
+img#leao2
+{
+  position: relative;
+    left: 250px;
+    top: 40px;
+    border-radius: 50%;
+}
+img#leao3
+{
+   position: relative;
+    left: 400px;
+    top: 40px;
+    border-radius: 50%;
+}
+div#projetos
+{
+    height: 900px;
+}
+div#prog
+{
+    background-color: violet;
+    height: 200px;
+    width: 1345px;
+    margin-top: 100px;
+    margin-left: -4px;
+    position: absolute;
+    opacity: 0.7;
+}
+div#envieseuprojeto
+{
+    position: absolute;
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+}
+header
+{
+    position: fixed;
+    background-color: white;
+    width: 1370px; 
+    height: 80px;
+    margin-top: -25px;
+    margin-left: -10px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,1);
+    z-index: 1;
+    
+}
+div#cima
+{
+   
+    height: 300px;
+    width: 1350px;
+    color: white;
+    font-size: 20px;
+    
+}
+figure#icon
+{
+    position: relative;
+    left: 300px;
+    top: -30px;
+}
+
+footer#rodape
+{
+    background-color: rgba(57,83,99);
+    height: 400px;
+    width: 1350px;
+    position: relative;
+    margin-top: -41px;
+}
+div#grupo1 /*Desenvolvedores*/
+{
+    position: relative;
+    color: white;
+    margin-left: 80px;
+    top: 10px;
+    list-style:  none;
+}
+div#grupo2 /*Contatos*/
+{
+    position: relative;
+    left: 400px;
+    margin-top:  -215px;
+     color: white;
+    list-style:  none;
+}
+div#imgsocial
+{
+    position: relative;
+    left: 1000px;
+    top: -25px;
+}
+nav#menu
+{
+    display: block;
+}
+
+nav#menu ul{
+    color: rgba(57,83,96);
+    list-style: none; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    position: absolute; 
+    top: 15px;
+    left: 500px;
+}
+a
+{
+    color: rgba(57,83,96);
+    text-decoration: none;
+}
+a:hover 
+{
+    color: white;
+}
+nav#menu li{
+    display: inline-block; /*Diz que o menu vai estar um ao lado do outro*/
+    background-color: white; 
+    padding: 10px; 
+    margin: -3px; 
+    transition: background-color 3s;
+}
+nav#menu li:hover
+{
+      display: inline-block; /*Diz que o menu vai estar um ao lado do outro*/
+    background-color: skyblue; 
+    padding: 10px; 
+    margin: -3px; 
+    color: white;
+    transition: background-color 1s;
+}
+div#contra
+{
+    width: 1350px;
+    height: 40px;
+    background-color: rgba(57,83,96);
+}
+
+/*SUBMENU*/
+nav#menu li  ul{
+position:absolute; 
+top:25px; /*Defiine posição do submenu*/
+left:350px; /*Define a posição do nosso submenu*/
+background-color: ghostwhite; 
+display:none;
+    z-index: 1;
+}   
+nav#menu li:hover ul, nav#menu li.over ul{display:block;}
+
+nav#menu li ul li{
+border:1px; 
+display:block; 
+width:150px; /*Define a largura da caixinha*/
+    text-align:inherit;
+}
+
+/*Rodapé*/
+/*Configurando Rodapé*/
+footer#rodape
+{
+    background-color: rgba(57,83,99);
+    height: 550px;
+    width: 1350px;
+    position: absolute;
+    margin-top: -41px;
+}
+div#grupo1 /*Desenvolvedores*/
+{
+    position: relative;
+    color: white;
+    margin-left: 80px;
+    top: 10px;
+    list-style: none;
+}
+
+div#grupo2 /*Contatos*/
+{
+    position: relative;
+    left: 300px;
+    margin-top:  -215px;
+     color: white;
+    list-style:  none;
+    margin-left: 50px;
+}
+div#contra
+{
+    position: absolute;
+    width: 1350px;
+    height: 40px;
+    background-color: rgba(57,83,96);
+    margin-top: 500px;
+}
+form
+{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -200px;
+    height: 500px;
+    width: 100px;   
+}
+label /*Formulário de Mensagem*/
+{
+    color: white;
+    padding: 10px;
+}
+input
+{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea
+{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+button[type=submit]{
+    background-color: white; /*Cor interna*/
+    padding: 10px; /*Espaçamento interno*/
+    color: rgba(57,83,96);
+    border-color: white; /*Cor nas bordas*/
+    margin: 10px;
+}
+hr
+{
+    position: relative;
+    margin-top: -10px;
+}
+img#ins
+{
+    position: relative;
+    top: -300px;
+    left: -900px;
+}
